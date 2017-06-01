@@ -3,132 +3,58 @@
 <Document>
 	<name>timeSpans.kml</name>
 	<open>1</open>
-	<Style id="sn_plain bread">
+	<Style id="sh_baguette1">
 		<IconStyle>
-			<scale>2</scale>
+			<scale>2.36364</scale>
 			<Icon>
-				<href>image/plain bread.png</href>
+				<href>image/baguette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_baguette3">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/baguette.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
 			<color>cc000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_croissant">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>image/croissant.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_plain bread">
-		<IconStyle>
-			<scale>2.36364</scale>
-			<Icon>
-				<href>image/plain bread.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_bread">
-		<IconStyle>
-			<scale>2.36364</scale>
-			<Icon>
-				<href>image/bread.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_bread">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>image/bread.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_croquette">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>image/croquette.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_curry bread">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>image/curry bread.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
+	<StyleMap id="msn_plain bread00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_plain bread0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_plain bread1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_croissant0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_croissant2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_croissant1</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_melonpan">
 		<IconStyle>
 			<scale>2</scale>
@@ -137,137 +63,57 @@
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<color>ff000000</color>
+			<color>cc000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_plain bread">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_plain bread1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_plain bread2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_creampan">
-		<IconStyle>
-			<scale>2.36364</scale>
-			<Icon>
-				<href>image/creampan.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_curry bread">
-		<IconStyle>
-			<scale>2.36364</scale>
-			<Icon>
-				<href>image/curry bread.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_bread">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bread</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bread</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_croissant">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_croissant</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_croissant</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_creampan">
+	<Style id="sn_bread0">
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>image/creampan.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_curry bread0">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>image/curry bread.png</href>
+				<href>image/bread.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
 			<color>cc000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_croissant">
+	<Style id="sn_sweet0">
 		<IconStyle>
-			<scale>2.36364</scale>
+			<scale>2</scale>
 			<Icon>
-				<href>image/croissant.png</href>
+				<href>image/sweet.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
 			<color>ff000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_baguette">
+	<StyleMap id="msn_curry bread00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_curry bread00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_curry bread0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_baguette2">
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
@@ -275,108 +121,34 @@
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<color>ff000000</color>
+			<color>cc000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_plain bread0">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>image/plain bread.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_unique">
+	<StyleMap id="msn_plain bread2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_unique0</styleUrl>
+			<styleUrl>#sn_plain bread3</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_unique</styleUrl>
+			<styleUrl>#sh_plain bread</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_unique">
-		<IconStyle>
-			<scale>2.36364</scale>
-			<Icon>
-				<href>image/unique.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_baguette">
-		<IconStyle>
-			<scale>2.36364</scale>
-			<Icon>
-				<href>image/baguette.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_plain bread0">
+	<StyleMap id="msn_sweet0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_plain bread</styleUrl>
+			<styleUrl>#sn_sweet1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_plain bread0</styleUrl>
+			<styleUrl>#sh_sweet0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_melonpan">
-		<IconStyle>
-			<scale>2.36364</scale>
-			<Icon>
-				<href>image/melonpan.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
 	<Style id="sn_unique">
 		<IconStyle>
 			<scale>2</scale>
@@ -388,54 +160,6 @@
 			<color>ff000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_baguette">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_baguette1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_baguette</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_plain bread0">
-		<IconStyle>
-			<scale>2.36364</scale>
-			<Icon>
-				<href>image/plain bread.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>cc000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_start">
-		<IconStyle>
-			<scale>2</scale>
-			<Icon>
-				<href>image/start.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
@@ -452,31 +176,71 @@
 			<color>ff000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_unique0">
+	<Style id="sn_curry bread1">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/curry bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_baguette11">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_unique</styleUrl>
+			<styleUrl>#sn_baguette1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_unique0</styleUrl>
+			<styleUrl>#sh_baguette0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_baguette0">
+	<StyleMap id="msn_anpan">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_baguette0</styleUrl>
+			<styleUrl>#sn_anpan</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_baguette1</styleUrl>
+			<styleUrl>#sh_anpan</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_plain bread">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/plain bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_baguette10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_baguette10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_baguette00</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_plain bread2">
@@ -490,94 +254,58 @@
 			<color>ff000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_plain bread1">
+	<StyleMap id="msn_curry bread10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_plain bread2</styleUrl>
+			<styleUrl>#sn_curry bread4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_plain bread</styleUrl>
+			<styleUrl>#sh_curry bread4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_creampan">
+	<StyleMap id="msn_melonpan0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_creampan</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_creampan</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_melonpan">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_melonpan</styleUrl>
+			<styleUrl>#sn_melonpan1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_melonpan</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_start">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_start</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_start</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_baguette1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_baguette</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_baguette0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_plain bread1">
+	<Style id="sn_baguette01">
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>image/plain bread.png</href>
+				<href>image/baguette.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
 			<color>ff000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_bread0">
+	<Style id="sn_anpan">
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>image/bread.png</href>
+				<href>image/anpan.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
 			<color>ff000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
@@ -591,17 +319,273 @@
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<color>ff000000</color>
+			<color>cc000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_curry bread0">
+	<StyleMap id="msn_plain bread">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_plain bread2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_plain bread0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_curry bread4">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/curry bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_baguette00">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/baguette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_melonpan2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_melonpan00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_melonpan0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_sweet">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/sweet.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_croquette0">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/croquette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_bread4">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_croissant0">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/croissant.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_bread1">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_bread2">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_melonpan">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/melonpan.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_croissant1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_croissant</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_croissant</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_plain bread">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/plain bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_plain bread1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_plain bread1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_plain bread2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_plain bread2">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/plain bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_croissant2">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/croissant.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_baguette10">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/baguette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_curry bread0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_curry bread1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_curry bread10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_curry bread2">
 		<IconStyle>
 			<scale>2.36364</scale>
 			<Icon>
@@ -612,26 +596,102 @@
 			<color>cc000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_bread0">
+	<Style id="sh_curry bread4">
 		<IconStyle>
 			<scale>2.36364</scale>
 			<Icon>
-				<href>image/bread.png</href>
+				<href>image/curry bread.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
 			<color>ff000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_bread2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bread3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bread3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_curry bread3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_curry bread</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_curry bread2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_start">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/start.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_croissant1">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/croissant.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_croquette">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/croquette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_sweet">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/sweet.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
@@ -648,24 +708,718 @@
 			<color>ff000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_plain bread2">
+	<Style id="sh_croissant">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/croissant.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_croquette">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_plain bread0</styleUrl>
+			<styleUrl>#sn_croquette1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_plain bread1</styleUrl>
+			<styleUrl>#sh_croquette</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_plain bread2">
+	<Style id="sn_creampan0">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/creampan.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_bread4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bread1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bread0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_baguette0">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/baguette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_bread0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bread</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bread</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_curry bread2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_curry bread2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_curry bread</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_bread3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bread0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bread2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_creampan0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_creampan</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_creampan</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_melonpan2">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/melonpan.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_curry bread3">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/curry bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_plain bread3">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/plain bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_melonpan00">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/melonpan.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_unique">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/unique.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_croquette1">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/croquette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_sweet1">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/sweet.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_croissant0">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/croissant.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_creampan">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/creampan.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_croissant2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_croissant1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_croissant2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_croissant">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_croissant0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_croissant0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_croissant2">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/croissant.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_creampan0">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/creampan.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_curry bread2">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/curry bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sh_curry bread10">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/curry bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_bread0">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_curry bread">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_curry bread0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_curry bread1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_melonpan0">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/melonpan.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_unique0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_unique</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_unique0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_baguette10">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/baguette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_sweet0">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/sweet.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_croquette00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_croquette0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_croquette0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_bread2">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_plain bread0">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/plain bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_bread3">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_baguette1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_baguette0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_baguette4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_melonpan1">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/melonpan.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_plain bread3">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/plain bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_baguette2">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/baguette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_unique">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_unique0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_unique</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_curry bread0">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/curry bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_croquette1">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/croquette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_baguette2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_baguette100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_baguette2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_sweet">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_sweet</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_sweet</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_bread1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bread4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bread4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_croissant">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/croissant.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_baguette00">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/baguette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_bread">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_bread4">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_creampan">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_creampan0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_creampan0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_baguette4">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/baguette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_creampan">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/creampan.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_plain bread0">
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
@@ -676,8 +1430,188 @@
 			<color>ff000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_baguette0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_baguette2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_baguette3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_baguette00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_baguette00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_baguette10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_sweet1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_sweet0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_sweet1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_croquette0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_croquette</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_croquette1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_unique0">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/unique.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_baguette20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_baguette01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_baguette1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_curry bread1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_curry bread3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_curry bread3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_melonpan1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_melonpan</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_melonpan2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_croquette0">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/croquette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_curry bread1">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/curry bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_curry bread">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/curry bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_plain bread1">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/plain bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_curry bread3">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/curry bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_bread1">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
@@ -694,23 +1628,63 @@
 			<color>ff000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_croquette">
+	<Style id="sh_anpan">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/anpan.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_bread">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_croquette</styleUrl>
+			<styleUrl>#sn_bread2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_croquette</styleUrl>
+			<styleUrl>#sh_bread1</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_start">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_start</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_start</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_croissant1">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/croissant.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
 	<Style id="sh_start">
 		<IconStyle>
 			<scale>2.36364</scale>
@@ -722,115 +1696,187 @@
 			<color>ff000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_croquette">
+	<StyleMap id="msn_melonpan">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_melonpan0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_melonpan1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_baguette100">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/baguette.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_bread3">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_sweet1">
 		<IconStyle>
 			<scale>2.36364</scale>
+			<Icon>
+				<href>image/sweet.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_croquette">
+		<IconStyle>
+			<scale>2</scale>
 			<Icon>
 				<href>image/croquette.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<color>ff000000</color>
+			<color>cc000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_baguette0">
-		<IconStyle>
-			<scale>2.36364</scale>
-			<Icon>
-				<href>image/baguette.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_baguette1">
-		<IconStyle>
-			<scale>2.36364</scale>
-			<Icon>
-				<href>image/baguette.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<color>ff000000</color>
-			<scale>0.8</scale>
-		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
-		<LineStyle>
-			<color>ff1bcfff</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_unique0">
+	<StyleMap id="msn_plain bread0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_plain bread</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_plain bread3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_bread">
 		<IconStyle>
 			<scale>2</scale>
 			<Icon>
-				<href>image/unique.png</href>
+				<href>image/bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_curry bread0">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/curry bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_melonpan0">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/melonpan.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_curry bread">
+		<IconStyle>
+			<scale>2.36364</scale>
+			<Icon>
+				<href>image/curry bread.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
 			<color>ff000000</color>
 			<scale>0.8</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
+	</Style>
+	<Style id="sn_curry bread00">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/curry bread.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>cc000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
 		<LineStyle>
 			<color>ff1bcfff</color>
 			<width>3</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_curry bread">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_curry bread</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_curry bread</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_curry bread0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_curry bread0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_curry bread0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_bread0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bread0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bread0</styleUrl>
-		</Pair>
-	</StyleMap>
+	<Style id="sn_melonpan1">
+		<IconStyle>
+			<scale>2</scale>
+			<Icon>
+				<href>image/melonpan.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff000000</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff1bcfff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
 	<Folder>
 		<name>timeSpans</name>
 		<open>1</open>
@@ -900,115 +1946,7 @@
 		<Document>
 			<name>2016.kml</name>
 			<open>1</open>
-			<Style id="sh_unique1">
-				<IconStyle>
-					<scale>2.36364</scale>
-					<Icon>
-						<href>image/unique.png</href>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<color>ff000000</color>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-				<LineStyle>
-					<color>ff1bcfff</color>
-					<width>3</width>
-				</LineStyle>
-			</Style>
-			<Style id="sh_croquette0">
-				<IconStyle>
-					<scale>2.36364</scale>
-					<Icon>
-						<href>image/croquette.png</href>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<color>ff000000</color>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-				<LineStyle>
-					<color>ff1bcfff</color>
-					<width>3</width>
-				</LineStyle>
-			</Style>
-			<Style id="sn_unique1">
-				<IconStyle>
-					<scale>2</scale>
-					<Icon>
-						<href>image/unique.png</href>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<color>ff000000</color>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-				<LineStyle>
-					<color>ff1bcfff</color>
-					<width>3</width>
-				</LineStyle>
-			</Style>
-			<Style id="sh_plain bread3">
-				<IconStyle>
-					<scale>2.36364</scale>
-					<Icon>
-						<href>image/plain bread.png</href>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<color>ff000000</color>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-				<LineStyle>
-					<color>ff1bcfff</color>
-					<width>3</width>
-				</LineStyle>
-			</Style>
-			<Style id="sn_melonpan0">
-				<IconStyle>
-					<scale>2</scale>
-					<Icon>
-						<href>image/melonpan.png</href>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<color>ff000000</color>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-				<LineStyle>
-					<color>ff1bcfff</color>
-					<width>3</width>
-				</LineStyle>
-			</Style>
-			<Style id="sh_curry bread1">
-				<IconStyle>
-					<scale>2.36364</scale>
-					<Icon>
-						<href>image/curry bread.png</href>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<color>ff000000</color>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-				<LineStyle>
-					<color>ff1bcfff</color>
-					<width>3</width>
-				</LineStyle>
-			</Style>
-			<Style id="sh_bread1">
+			<Style id="sh_bread20">
 				<IconStyle>
 					<scale>2.36364</scale>
 					<Icon>
@@ -1019,8 +1957,22 @@
 					<color>ff000000</color>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
+				<LineStyle>
+					<color>ff1bcfff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<Style id="sn_croissant00">
+				<IconStyle>
+					<scale>2</scale>
+					<Icon>
+						<href>image/croissant.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff000000</color>
+					<scale>0.8</scale>
+				</LabelStyle>
 				<LineStyle>
 					<color>ff1bcfff</color>
 					<width>3</width>
@@ -1040,207 +1992,59 @@
 					<color>ff0600fc</color>
 				</LineStyle>
 			</Style>
-			<StyleMap id="msn_bread1">
+			<Style id="sn_bread20">
+				<IconStyle>
+					<scale>2</scale>
+					<Icon>
+						<href>image/bread.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff000000</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff1bcfff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<Style id="sn_croquette00">
+				<IconStyle>
+					<scale>2</scale>
+					<Icon>
+						<href>image/croquette.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff000000</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff1bcfff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<StyleMap id="msn_melonpan00">
 				<Pair>
 					<key>normal</key>
-					<styleUrl>#sn_bread1</styleUrl>
+					<styleUrl>#sn_melonpan000</styleUrl>
 				</Pair>
 				<Pair>
 					<key>highlight</key>
-					<styleUrl>#sh_bread2</styleUrl>
+					<styleUrl>#sh_melonpan00</styleUrl>
 				</Pair>
 			</StyleMap>
-			<StyleMap id="msn_bread2">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#sn_bread2</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#sh_bread1</styleUrl>
-				</Pair>
-			</StyleMap>
-			<Style id="sh_croissant0">
+			<Style id="sh_melonpan00">
 				<IconStyle>
 					<scale>2.36364</scale>
 					<Icon>
-						<href>image/croissant.png</href>
+						<href>image/melonpan.png</href>
 					</Icon>
 				</IconStyle>
 				<LabelStyle>
 					<color>ff000000</color>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-				<LineStyle>
-					<color>ff1bcfff</color>
-					<width>3</width>
-				</LineStyle>
-			</Style>
-			<StyleMap id="msn_croissant0">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#sn_croissant0</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#sh_croissant0</styleUrl>
-				</Pair>
-			</StyleMap>
-			<StyleMap id="msn_unique1">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#sn_unique1</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#sh_unique1</styleUrl>
-				</Pair>
-			</StyleMap>
-			<Style id="sn_bread1">
-				<IconStyle>
-					<scale>2</scale>
-					<Icon>
-						<href>image/bread.png</href>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<color>ff000000</color>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-				<LineStyle>
-					<color>ff1bcfff</color>
-					<width>3</width>
-				</LineStyle>
-			</Style>
-			<StyleMap id="msn_croquette0">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#sn_croquette0</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#sh_croquette0</styleUrl>
-				</Pair>
-			</StyleMap>
-			<StyleMap id="msn_curry bread1">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#sn_curry bread1</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#sh_curry bread1</styleUrl>
-				</Pair>
-			</StyleMap>
-			<StyleMap id="msn_melonpan0">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#sn_melonpan0</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#sh_melonpan0</styleUrl>
-				</Pair>
-			</StyleMap>
-			<StyleMap id="msn_plain bread3">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#sn_plain bread3</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#sh_plain bread3</styleUrl>
-				</Pair>
-			</StyleMap>
-			<Style id="sn_bread2">
-				<IconStyle>
-					<scale>2</scale>
-					<Icon>
-						<href>image/bread.png</href>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<color>ff000000</color>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-				<LineStyle>
-					<color>ff1bcfff</color>
-					<width>3</width>
-				</LineStyle>
-			</Style>
-			<Style id="sn_croissant0">
-				<IconStyle>
-					<scale>2</scale>
-					<Icon>
-						<href>image/croissant.png</href>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<color>ff000000</color>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-				<LineStyle>
-					<color>ff1bcfff</color>
-					<width>3</width>
-				</LineStyle>
-			</Style>
-			<Style id="sh_bread2">
-				<IconStyle>
-					<scale>2.36364</scale>
-					<Icon>
-						<href>image/bread.png</href>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<color>ff000000</color>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-				<LineStyle>
-					<color>ff1bcfff</color>
-					<width>3</width>
-				</LineStyle>
-			</Style>
-			<Style id="sn_curry bread1">
-				<IconStyle>
-					<scale>2</scale>
-					<Icon>
-						<href>image/curry bread.png</href>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<color>ff000000</color>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-				<LineStyle>
-					<color>ff1bcfff</color>
-					<width>3</width>
-				</LineStyle>
-			</Style>
-			<Style id="sn_plain bread3">
-				<IconStyle>
-					<scale>2</scale>
-					<Icon>
-						<href>image/plain bread.png</href>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<color>ff000000</color>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 				<LineStyle>
 					<color>ff1bcfff</color>
 					<width>3</width>
@@ -1256,9 +2060,67 @@
 					<styleUrl>#sh_A0</styleUrl>
 				</Pair>
 			</StyleMap>
-			<Style id="sn_croquette0">
+			<Style id="sh_croissant00">
+				<IconStyle>
+					<scale>2.36364</scale>
+					<Icon>
+						<href>image/croissant.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff000000</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff1bcfff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<Style id="sn_bread10">
 				<IconStyle>
 					<scale>2</scale>
+					<Icon>
+						<href>image/bread.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff000000</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff1bcfff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<Style id="sn_plain bread30">
+				<IconStyle>
+					<scale>2</scale>
+					<Icon>
+						<href>image/plain bread.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff000000</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff1bcfff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<StyleMap id="msn_bread10">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_bread10</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_bread20</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="sh_croquette00">
+				<IconStyle>
+					<scale>2.36364</scale>
 					<Icon>
 						<href>image/croquette.png</href>
 					</Icon>
@@ -1267,16 +2129,112 @@
 					<color>ff000000</color>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 				<LineStyle>
 					<color>ff1bcfff</color>
 					<width>3</width>
 				</LineStyle>
 			</Style>
-			<Style id="sh_melonpan0">
+			<Style id="sh_plain bread30">
 				<IconStyle>
 					<scale>2.36364</scale>
+					<Icon>
+						<href>image/plain bread.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff000000</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff1bcfff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<StyleMap id="msn_curry bread100">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_curry bread10</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_curry bread100</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="sn_curry bread10">
+				<IconStyle>
+					<scale>2</scale>
+					<Icon>
+						<href>image/curry bread.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff000000</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff1bcfff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<StyleMap id="msn_bread20">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_bread20</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_bread10</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="msn_plain bread3">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_plain bread30</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_plain bread30</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="sh_curry bread100">
+				<IconStyle>
+					<scale>2.36364</scale>
+					<Icon>
+						<href>image/curry bread.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff000000</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff1bcfff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<StyleMap id="msn_croissant00">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_croissant00</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_croissant00</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="msn_croquette000">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_croquette00</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_croquette00</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="sn_melonpan000">
+				<IconStyle>
+					<scale>2</scale>
 					<Icon>
 						<href>image/melonpan.png</href>
 					</Icon>
@@ -1285,8 +2243,6 @@
 					<color>ff000000</color>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 				<LineStyle>
 					<color>ff1bcfff</color>
 					<width>3</width>
@@ -1304,6 +2260,22 @@
 				</LabelStyle>
 				<LineStyle>
 					<color>ff0600fc</color>
+				</LineStyle>
+			</Style>
+			<Style id="sh_bread10">
+				<IconStyle>
+					<scale>2.36364</scale>
+					<Icon>
+						<href>image/bread.png</href>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff000000</color>
+					<scale>0.8</scale>
+				</LabelStyle>
+				<LineStyle>
+					<color>ff1bcfff</color>
+					<width>3</width>
 				</LineStyle>
 			</Style>
 			<Placemark>
@@ -1339,28 +2311,10 @@
 					<range>1013.488375983831</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_curry bread1</styleUrl>
+				<styleUrl>#msn_curry bread100</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>139.5417077386896,35.74596097282646,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Gluck</name>
-				<description>ヨーロッパのパンを、酸味を抑えて食べやすくしたパン作り</description>
-				<LookAt>
-					<longitude>139.5195326865751</longitude>
-					<latitude>35.73305466805709</latitude>
-					<altitude>0</altitude>
-					<heading>-3.080055514638633e-09</heading>
-					<tilt>0</tilt>
-					<range>1003.038808660322</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_unique1</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>139.5195326865751,35.73305466805709,0</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark>
@@ -1375,7 +2329,7 @@
 					<range>1012.725265108956</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_croquette0</styleUrl>
+				<styleUrl>#msn_croquette000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>139.5354818039589,35.76443188068459,0</coordinates>
@@ -1411,7 +2365,7 @@
 					<range>1007.36940503168</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_bread1</styleUrl>
+				<styleUrl>#msn_bread10</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>139.5659373926086,35.64999529891573,0</coordinates>
@@ -1429,7 +2383,7 @@
 					<range>1005.42106656482</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_melonpan0</styleUrl>
+				<styleUrl>#msn_melonpan00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>139.5473979677444,35.65402226980743,0</coordinates>
@@ -1447,7 +2401,7 @@
 					<range>1000.000029921581</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_bread2</styleUrl>
+				<styleUrl>#msn_bread20</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>139.5106974075234,35.66550759936224,0</coordinates>
@@ -1465,7 +2419,7 @@
 					<range>1006.61243856973</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_croissant0</styleUrl>
+				<styleUrl>#msn_croissant00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>139.4290029903273,35.60963127863951,0</coordinates>
@@ -1488,7 +2442,7 @@
 				<begin>2016-06-02T10:50:00Z</begin>
 				<end>2017-12-31T23:59:59Z</end>
 			</TimeSpan>
-			<styleUrl>#msn_baguette1</styleUrl>
+			<styleUrl>#msn_baguette10</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -1496,26 +2450,7 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>天然酵母のパン工房 アチパン</name>
-			<description>&quot;あ&quot;ったかくて、&quot;ち&quot;いさいパン屋さん。</description>
-			<LookAt>
-				<longitude>139.4813558341284</longitude>
-				<latitude>35.69647576679862</latitude>
-				<altitude>0</altitude>
-				<heading>-2.16062735106935e-07</heading>
-				<tilt>0</tilt>
-				<range>1004.793286592908</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_plain bread0</styleUrl>
-			<Point>
-				<extrude>1</extrude>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>139.4813558341284,35.69647576679861,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>パンの家</name>
+			<name>パンの家 ラ・ママン</name>
 			<description>家族の健康を、誰よりも願うお母さんたちが作るパン</description>
 			<LookAt>
 				<longitude>139.4812877112004</longitude>
@@ -1526,7 +2461,7 @@
 				<range>1000.000006552055</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_curry bread0</styleUrl>
+			<styleUrl>#msn_curry bread00</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -1545,7 +2480,7 @@
 				<range>936.8374265461847</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_croissant</styleUrl>
+			<styleUrl>#msn_croissant2</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -1564,7 +2499,7 @@
 				<range>1001.927540654416</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_bread</styleUrl>
+			<styleUrl>#msn_bread2</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -1583,7 +2518,7 @@
 				<range>1008.783654877798</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_creampan</styleUrl>
+			<styleUrl>#msn_creampan0</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -1602,7 +2537,7 @@
 				<range>1009.933866756092</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_curry bread</styleUrl>
+			<styleUrl>#msn_curry bread0</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<gx:drawOrder>1</gx:drawOrder>
@@ -1621,49 +2556,11 @@
 				<range>1008.98285132946</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_baguette</styleUrl>
+			<styleUrl>#msn_baguette2</styleUrl>
 			<Point>
 				<extrude>1</extrude>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>139.4345855597256,35.72095570330391,1000</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>花小金井 丸十製パン</name>
-			<description>一番人気は、遠方から取り寄せる人多数の「角食パン」</description>
-			<LookAt>
-				<longitude>139.513960856953</longitude>
-				<latitude>35.72350011541872</latitude>
-				<altitude>0</altitude>
-				<heading>2.708845026378322e-08</heading>
-				<tilt>0</tilt>
-				<range>1010.353822816948</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_plain bread1</styleUrl>
-			<Point>
-				<extrude>1</extrude>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>139.513960856953,35.72350011541872,1000</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>ヴァイツェンブロート</name>
-			<description>挟んでおいしい、本格的ドイツパンの店</description>
-			<LookAt>
-				<longitude>139.4179096086891</longitude>
-				<latitude>35.69670334133151</latitude>
-				<altitude>0</altitude>
-				<heading>8.068752351959476e-09</heading>
-				<tilt>0</tilt>
-				<range>1010.78685010962</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_bread0</styleUrl>
-			<Point>
-				<extrude>1</extrude>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>139.4179096086891,35.69670334133151,1000</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -1703,26 +2600,43 @@
 				<coordinates>139.3663135495625,35.6620100775181,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>溶岩窯のパン工房 グラスハープ</name>
+			<description>富士山の溶岩を使用した窯で焼き上げるパン</description>
+			<LookAt>
+				<longitude>139.5310219960631</longitude>
+				<latitude>35.73026098931131</latitude>
+				<altitude>0</altitude>
+				<heading>-2.299054409831859e-09</heading>
+				<tilt>0</tilt>
+				<range>999.9999609178233</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_curry bread2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.5310219960631,35.73026098931131,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ヴァンドーム</name>
+			<description>閉店</description>
+			<LookAt>
+				<longitude>139.5430182873358</longitude>
+				<latitude>35.70527940498128</latitude>
+				<altitude>0</altitude>
+				<heading>-5.545933198067933e-09</heading>
+				<tilt>0</tilt>
+				<range>1000.13483528567</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_croissant0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.5430182873358,35.70527940498128,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
-	<Placemark>
-		<name>happy DELI</name>
-		<description>焼きたてパンをワゴン車に乗せて、焼きたて天然酵母パンをデリバリー。</description>
-		<LookAt>
-			<longitude>139.5352220788806</longitude>
-			<latitude>35.6952182734839</latitude>
-			<altitude>0</altitude>
-			<heading>6.388118633282022e-09</heading>
-			<tilt>0</tilt>
-			<range>1023.785656042633</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#msn_plain bread2</styleUrl>
-		<Point>
-			<extrude>1</extrude>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>139.5352220788806,35.6952182734839,1000</coordinates>
-		</Point>
-	</Placemark>
 	<Placemark>
 		<name>キィニョン</name>
 		<description>童話のような店構えと、「ぞうパン」や「ベレー帽をかぶったパン」が可愛いパン屋</description>
@@ -1754,7 +2668,7 @@
 			<range>1005.443432692848</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_baguette0</styleUrl>
+		<styleUrl>#msn_baguette00</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>139.4290697880436,35.6288196575594,0</coordinates>
@@ -1772,7 +2686,7 @@
 			<range>1000.00001226923</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_plain bread</styleUrl>
+		<styleUrl>#msn_plain bread1</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>139.4553270016221,35.57594800116963,0</coordinates>
@@ -1790,7 +2704,7 @@
 			<range>1015.800817317861</range>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</LookAt>
-		<styleUrl>#msn_melonpan</styleUrl>
+		<styleUrl>#msn_melonpan0</styleUrl>
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>139.4717717723278,35.53553615151756,0</coordinates>
@@ -1812,6 +2726,618 @@
 		<Point>
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>139.294293435107,35.63882871425358,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>クラウンベーカリー(ラ・クルシェット)</name>
+		<description>圧倒的な品揃えが人気の、地域に根付いたベーカリー</description>
+		<LookAt>
+			<longitude>139.5603283911321</longitude>
+			<latitude>35.70511300366265</latitude>
+			<altitude>0</altitude>
+			<heading>-5.175408119341478e-09</heading>
+			<tilt>0</tilt>
+			<range>1000.000042215828</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_curry bread</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.5603283911321,35.70511300366265,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>パン・ド・カンパニュー</name>
+		<description>毎日ノートに記録をつける店主の「いつ行ってもおいしいパン屋」</description>
+		<LookAt>
+			<longitude>139.4470647096961</longitude>
+			<latitude>35.68550079961148</latitude>
+			<altitude>0</altitude>
+			<heading>-3.067155184850616e-09</heading>
+			<tilt>0</tilt>
+			<range>1023.683217980324</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_sweet1</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.4470647096961,35.68550079961148,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>パン工房 エミュウ</name>
+		<description>定番のよもぎパンからラスクまで</description>
+		<LookAt>
+			<longitude>139.4879769848377</longitude>
+			<latitude>35.72470837651058</latitude>
+			<altitude>0</altitude>
+			<heading>-1.028953967218988e-09</heading>
+			<tilt>0</tilt>
+			<range>1017.105233255278</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_anpan</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.4879769848377,35.72470837651058,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>フレッシュベーカリー アーク</name>
+		<description>アンティークな雰囲気の店内に、約60種類のパンが並ぶ店</description>
+		<LookAt>
+			<longitude>139.4735257042458</longitude>
+			<latitude>35.73019800272264</latitude>
+			<altitude>0</altitude>
+			<heading>2.479395040825521e-09</heading>
+			<tilt>0</tilt>
+			<range>1000.000046324105</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_baguette20</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.4735257042457,35.73019800272265,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ボンジュール・ボン</name>
+		<description>自家製手作りハンバーグと、目玉焼きをサンドした「エッグバーガー」</description>
+		<LookAt>
+			<longitude>139.466633091752</longitude>
+			<latitude>35.76043988433651</latitude>
+			<altitude>0</altitude>
+			<heading>1.695633214555237e-09</heading>
+			<tilt>0</tilt>
+			<range>1006.939486971526</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_melonpan2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.466633091752,35.76043988433651,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>石窯パン工房 サンメリー</name>
+		<description>表面はカリッ、中はしっとりの石窯パン</description>
+		<LookAt>
+			<longitude>139.3012595997331</longitude>
+			<latitude>35.78416347013776</latitude>
+			<altitude>0</altitude>
+			<heading>-5.138605921122264e-09</heading>
+			<tilt>0</tilt>
+			<range>1026.001496713857</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_baguette11</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.3012595997331,35.78416347013777,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>グート</name>
+		<description>オススメはコロッケパンなどの調理パン</description>
+		<LookAt>
+			<longitude>139.2768963020127</longitude>
+			<latitude>35.78956230089594</latitude>
+			<altitude>0</altitude>
+			<heading>1.177034232078567e-09</heading>
+			<tilt>0</tilt>
+			<range>1000.000031515181</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_croquette00</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.2768963020127,35.78956230089594,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>AOSAN</name>
+		<description>行列ができる幻の「角食」</description>
+		<LookAt>
+			<longitude>139.5829746277306</longitude>
+			<latitude>35.66061315854841</latitude>
+			<altitude>0</altitude>
+			<heading>-8.618380825908506e-10</heading>
+			<tilt>0</tilt>
+			<range>1013.05976154387</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_plain bread00</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.5829746277306,35.66061315854841,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Pain Pati</name>
+		<description>活気と香りに五感を刺激される、カレーパンのおいしい店</description>
+		<LookAt>
+			<longitude>139.4389429906101</longitude>
+			<latitude>35.570952997444</latitude>
+			<altitude>0</altitude>
+			<heading>-5.462227359961176e-09</heading>
+			<tilt>0</tilt>
+			<range>1000.000079343909</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_curry bread10</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.4389429906101,35.570952997444,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>パン工房 デリス(移転前)</name>
+		<description>移転→ベーカリーカフェ デリス</description>
+		<LookAt>
+			<longitude>139.5659376848828</longitude>
+			<latitude>35.69440012217262</latitude>
+			<altitude>0</altitude>
+			<heading>-1.40214435076851e-09</heading>
+			<tilt>0</tilt>
+			<range>1002.64603518028</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_plain bread</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.5659376848828,35.69440012217262,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ベーカリーカフェ デリス(移転後)</name>
+		<description>パティシエの経験を生かした、元フレンチコックが作るパン(移転前：パン工房 デリス)</description>
+		<LookAt>
+			<longitude>139.5609270642197</longitude>
+			<latitude>35.69811071549039</latitude>
+			<altitude>0</altitude>
+			<heading>-6.065848930182732e-09</heading>
+			<tilt>0</tilt>
+			<range>1003.002976413135</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_plain bread0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.5609270642197,35.69811071549038,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>クラウン ティアラ(パン工房 ティアラ)</name>
+		<description>春はイチゴ、夏はオレンジを入れて、パンに季節感を織り込む工夫</description>
+		<LookAt>
+			<longitude>139.5014155360886</longitude>
+			<latitude>35.70594724382408</latitude>
+			<altitude>0</altitude>
+			<heading>-9.571752091677196e-10</heading>
+			<tilt>0</tilt>
+			<range>1006.033982632449</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_creampan</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.5014155360886,35.70594724382408,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>花小金井 丸十製パン</name>
+		<description>閉店</description>
+		<LookAt>
+			<longitude>139.5139947888171</longitude>
+			<latitude>35.72350970232628</latitude>
+			<altitude>0</altitude>
+			<heading>-6.52935434446709e-09</heading>
+			<tilt>0</tilt>
+			<range>1000.000090006745</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_plain bread2</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.5139947888171,35.72350970232628,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>欧風パン グリュック</name>
+		<description>閉店</description>
+		<LookAt>
+			<longitude>139.5195242624368</longitude>
+			<latitude>35.73304150040057</latitude>
+			<altitude>0</altitude>
+			<heading>4.575135673199507e-09</heading>
+			<tilt>0</tilt>
+			<range>1008.210224851459</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_bread0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.5195242624368,35.73304150040057,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ヴァイツェンブロート</name>
+		<description>閉店</description>
+		<LookAt>
+			<longitude>139.4179068604961</longitude>
+			<latitude>35.6967025939829</latitude>
+			<altitude>0</altitude>
+			<heading>-1.752532065584747e-08</heading>
+			<tilt>0</tilt>
+			<range>1002.816529894945</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_bread0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.4179068604961,35.6967025939829,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ベーカリー＆カフェ 麦2 (BAKU BAKU)</name>
+		<description>原材料は極上なのに、リーズナブルなパンが勢揃い</description>
+		<LookAt>
+			<longitude>139.4125239044024</longitude>
+			<latitude>35.69391920295973</latitude>
+			<altitude>0</altitude>
+			<heading>2.568609599640574e-09</heading>
+			<tilt>0</tilt>
+			<range>1000.000071085018</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_curry bread1</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.4125239044024,35.69391920295973,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>パン工房 ゼルコバ</name>
+		<description>移転→山梨県</description>
+		<LookAt>
+			<longitude>139.3625603876076</longitude>
+			<latitude>35.73091168734572</latitude>
+			<altitude>0</altitude>
+			<heading>1.994815271221784e-09</heading>
+			<tilt>0</tilt>
+			<range>1008.232612368846</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_bread1</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.3625603876075,35.73091168734572,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>パン工房 プリマベーラ</name>
+		<description>できたての調理パンが、朝6時半から登場</description>
+		<LookAt>
+			<longitude>139.3315575948801</longitude>
+			<latitude>35.72341908684007</latitude>
+			<altitude>0</altitude>
+			<heading>-2.989327011795204e-09</heading>
+			<tilt>0</tilt>
+			<range>999.9999830930605</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_croquette0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.3315575948801,35.72341908684007,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>グルースゴット</name>
+		<description>移転</description>
+		<LookAt>
+			<longitude>139.2835955842694</longitude>
+			<latitude>35.78765159485992</latitude>
+			<altitude>0</altitude>
+			<heading>-9.198981541345626e-09</heading>
+			<tilt>0</tilt>
+			<range>999.9999997522444</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_baguette1</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.2835955842694,35.78765159485992,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ブーランジェリー スノウチ(トレシェル)</name>
+		<description>ストレートに小麦の甘みを感じられる「素直なパン」</description>
+		<LookAt>
+			<longitude>139.5565870064206</longitude>
+			<latitude>35.64524319521352</latitude>
+			<altitude>0</altitude>
+			<heading>3.741760374453073e-09</heading>
+			<tilt>0</tilt>
+			<range>999.9999713782086</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_baguette1</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.5565870064207,35.64524319521352,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>To Re あ dor</name>
+		<description>閉店</description>
+		<LookAt>
+			<longitude>139.5195762823709</longitude>
+			<latitude>35.65970608111675</latitude>
+			<altitude>0</altitude>
+			<heading>-7.282675081881087e-10</heading>
+			<tilt>0</tilt>
+			<range>999.947187042378</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_melonpan</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.5195762823709,35.65970608111675,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>南部</name>
+		<description>閉店</description>
+		<LookAt>
+			<longitude>139.4650785363299</longitude>
+			<latitude>35.6944779046411</latitude>
+			<altitude>0</altitude>
+			<heading>-2.370305195806004e-09</heading>
+			<tilt>0</tilt>
+			<range>1003.522117630631</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_bread4</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.4650785363299,35.6944779046411,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>らぱん(フラッグス ベーカリー)</name>
+		<description>ジブリ映画のような店内に、素朴でスタンダードなパン</description>
+		<LookAt>
+			<longitude>139.4501335004772</longitude>
+			<latitude>35.66182069548812</latitude>
+			<altitude>0</altitude>
+			<heading>2.782094790969767e-10</heading>
+			<tilt>0</tilt>
+			<range>1000.000042944104</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_melonpan1</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.4501335004772,35.66182069548812,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ウエスト ヴィラージュ(移転前)</name>
+		<description>移転→ウエスト ヴィラージュ(町田)</description>
+		<LookAt>
+			<longitude>139.4122134027317</longitude>
+			<latitude>35.61579448496363</latitude>
+			<altitude>0</altitude>
+			<heading>1.5908021322542e-09</heading>
+			<tilt>0</tilt>
+			<range>999.9999131900491</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_croissant</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.4122134027317,35.61579448496362,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ウエスト ヴィラージュ(移転後)</name>
+		<description>早朝5時半から焼き上げるパン(移転前：ウエスト ヴィラージュ)</description>
+		<LookAt>
+			<longitude>139.4777633192727</longitude>
+			<latitude>35.53719588246251</latitude>
+			<altitude>0</altitude>
+			<heading>-1.508950557526736e-09</heading>
+			<tilt>0</tilt>
+			<range>1005.371731433449</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_croissant1</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.4777633192727,35.53719588246251,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>天然素材パン工房　リトルトリー</name>
+		<description>閉店</description>
+		<LookAt>
+			<longitude>139.4615941025095</longitude>
+			<latitude>35.5613942006523</latitude>
+			<altitude>0</altitude>
+			<heading>1.459422960026986e-09</heading>
+			<tilt>0</tilt>
+			<range>1000.000024176785</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_sweet0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.4615941025095,35.5613942006523,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>チクテ ベーカリー(移転前)</name>
+		<description>移転→チクテ ベーカリー(南大沢)</description>
+		<LookAt>
+			<longitude>139.3522627358764</longitude>
+			<latitude>35.60795774994741</latitude>
+			<altitude>0</altitude>
+			<heading>1.150320753308954e-09</heading>
+			<tilt>0</tilt>
+			<range>1010.117605663656</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_bread</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.3522627358764,35.60795774994741,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>チクテ ベーカリー(移転後)</name>
+		<description>自家製酵母と国産小麦の、愛情たっぷり素朴なパン(移転前：チクテ ベーカリー)</description>
+		<LookAt>
+			<longitude>139.3788832006878</longitude>
+			<latitude>35.60750589775932</latitude>
+			<altitude>0</altitude>
+			<heading>4.004445566149827e-10</heading>
+			<tilt>0</tilt>
+			<range>1000.000057620403</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_bread3</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.3788832006878,35.60750589775932,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>サントノーレ</name>
+		<description>爆弾のような見た目の「大人のカツカレーパン」</description>
+		<LookAt>
+			<longitude>139.4814617075743</longitude>
+			<latitude>35.51732140148007</latitude>
+			<altitude>0</altitude>
+			<heading>4.400259235148598e-09</heading>
+			<tilt>0</tilt>
+			<range>1000.000092728697</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_curry bread3</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.4814617075743,35.51732140148008,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boule Beurre Boulangerie(移転後)</name>
+		<description>外国の街角に佇むようなパン屋</description>
+		<LookAt>
+			<longitude>139.3338403053023</longitude>
+			<latitude>35.66052390305904</latitude>
+			<altitude>0</altitude>
+			<heading>3.091142928258214e-09</heading>
+			<tilt>0</tilt>
+			<range>1000.000077336778</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_baguette0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.3338403053023,35.66052390305904,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Boule Beurre Boulangerie(移転前)</name>
+		<description>移転→通りの向かい</description>
+		<LookAt>
+			<longitude>139.3335458993034</longitude>
+			<latitude>35.66044889678203</latitude>
+			<altitude>0</altitude>
+			<heading>-4.061409300494838e-10</heading>
+			<tilt>0</tilt>
+			<range>1000.000033677532</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_baguette0</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.3335458993034,35.66044889678204,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ベーカリー パリール(移転前)</name>
+		<description>移転→ブーランジェリー パリール(西片倉)</description>
+		<LookAt>
+			<longitude>139.3220396966531</longitude>
+			<latitude>35.62940829692318</latitude>
+			<altitude>0</altitude>
+			<heading>-1.949727728057358e-09</heading>
+			<tilt>0</tilt>
+			<range>1000.000027811651</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_bread</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.3220396966531,35.62940829692318,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ブーランジェリー パリール(移転後)</name>
+		<description>フランスの片田舎風の店内と、香ばしい小麦の香り(移転前：ベーカリー パリール)</description>
+		<LookAt>
+			<longitude>139.3297832011894</longitude>
+			<latitude>35.63444090312038</latitude>
+			<altitude>0</altitude>
+			<heading>6.929601706691823e-10</heading>
+			<tilt>0</tilt>
+			<range>1000.000041458539</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_bread</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.3297832011894,35.63444090312038,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ラ・フィーユ</name>
+		<description>閉店</description>
+		<LookAt>
+			<longitude>139.3203876520435</longitude>
+			<latitude>35.62364828129932</latitude>
+			<altitude>0</altitude>
+			<heading>-7.450509771867236e-09</heading>
+			<tilt>0</tilt>
+			<range>1009.756113993743</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_sweet</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.3203876520435,35.62364828129932,0</coordinates>
 		</Point>
 	</Placemark>
 </Document>
