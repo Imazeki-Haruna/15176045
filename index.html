@@ -4,9 +4,9 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-	<meta name="description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
+	<meta name="description" content="Cesiumを使った多摩の美味しいパン屋さんの視覚化のサンプルです" />
 	<meta property="og:image" content="data/hinoshi.png" />
-	<meta property="og:description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
+	<meta property="og:description" content="Cesiumを使った多摩の美味しいパン屋さんの視覚化のサンプルです" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 	<title>多摩のおいしいパン屋さん</title>
 	<link rel="alternate" href="http://hiroshima.archiving.jp/index_en.html" hreflang="en" />
@@ -119,8 +119,8 @@
 		var cesiumTerrainProviderMeshes = new Cesium.CesiumTerrainProvider({
 			url: '//assets.agi.com/stk-terrain/world',
 			//海を表示しないときは以下をfalseに
-			requestWaterMask: true,
-			requestVertexNormals: true
+			requestWaterMask: false,
+			requestVertexNormals: false
 		});
 		viewer.terrainProvider = cesiumTerrainProviderMeshes;
 
@@ -149,7 +149,7 @@
 
 
 		viewPointsArray[0] = new viewPoints("首都大", 35.661, 139.3657347, 0, -89, 11000);
-		viewPointsArray[1] = new viewPoints("全体", 35.6842, 139.446, 0, -80, 21000);
+		viewPointsArray[1] = new viewPoints("全体", 35.6842, 139.446, 0, -80, 25000);
 		viewPointsArray[2] = new viewPoints("日野・八王子", 35.654, 139.354, 0, -89, 11000);
 		viewPointsArray[3] = new viewPoints("多摩", 35.624, 139.444, 0, -89, 8000);
 		viewPointsArray[4] = new viewPoints("町田", 35.554, 139.474, 0, -89, 10000);
@@ -299,7 +299,7 @@
 
 			//OSMの不透明度をデフォルト0に
 
-			openStreetMap.alpha = 0;
+			openStreetMap.alpha = 0.6;
 
 			//オーバーレイ配列を作成
 

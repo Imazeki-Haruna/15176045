@@ -2614,7 +2614,7 @@
 				</LookAt>
 				<TimeSpan>
 					<begin>2016-01-01T00:00:00Z</begin>
-					<end>2016-01-31T23:59:59Z</end>
+					<end>2016-02-31T23:59:59Z</end>
 				</TimeSpan>
 
 				<styleUrl>#msn_croissant0</styleUrl>
@@ -2674,10 +2674,13 @@
 			<Placemark>
 				<name>首都大・日野キャンパス</name>
 				<description><![CDATA[<div class="googft-info-window">
-					<b>首都大・日野キャンパスからパン屋まで？</b><br>
-					4月→30分　　5月→40分　　6月→50分<br>
-					7月→1時間　　8月→1時間10分<br>
-					9月→1時間20分　　10月→1時間半<br>
+					<b>首都大・日野キャンパスからパン屋まで何分？</b><br>
+					Apr→30分<br>
+					May→40分<br>
+					Jun→50分<br>
+					Jul→1時間<br>
+					Aug→1時間10分<br>
+					Sep→1時間20分<br>
 					途中で消えた店→閉店or移転
 				</div>]]></description>
 				<LookAt>
@@ -2882,7 +2885,7 @@
 				</LookAt>
 				<TimeSpan>
 					<begin>2016-01-01T00:00:00Z</begin>
-					<end>2016-01-31T23:59:59Z</end>
+					<end>2016-02-31T23:59:59Z</end>
 				</TimeSpan>
 
 				<styleUrl>#msn_bread0</styleUrl>
@@ -2952,7 +2955,7 @@
 				</LookAt>
 				<TimeSpan>
 					<begin>2016-01-01T00:00:00Z</begin>
-					<end>2016-01-31T23:59:59Z</end>
+					<end>2016-02-31T23:59:59Z</end>
 				</TimeSpan>
 
 				<styleUrl>#m_ylw-pushpin</styleUrl>
@@ -3136,7 +3139,7 @@
 				</LookAt>
 				<TimeSpan>
 					<begin>2016-01-01T00:00:00Z</begin>
-					<end>2016-01-31T23:59:59Z</end>
+					<end>2016-02-31T23:59:59Z</end>
 				</TimeSpan>
 
 				<styleUrl>#msn_plain bread2</styleUrl>
@@ -3159,7 +3162,7 @@
 				</LookAt>
 				<TimeSpan>
 					<begin>2016-01-01T00:00:00Z</begin>
-					<end>2016-01-31T23:59:59Z</end>
+					<end>2016-02-31T23:59:59Z</end>
 				</TimeSpan>
 
 				<styleUrl>#msn_bread0</styleUrl>
@@ -3205,7 +3208,7 @@
 				</LookAt>
 				<TimeSpan>
 					<begin>2016-01-01T00:00:00Z</begin>
-					<end>2016-01-31T23:59:59Z</end>
+					<end>2016-02-31T23:59:59Z</end>
 				</TimeSpan>
 
 				<styleUrl>#msn_bread1</styleUrl>
@@ -3297,7 +3300,7 @@
 				</LookAt>
 				<TimeSpan>
 					<begin>2016-01-01T00:00:00Z</begin>
-					<end>2016-01-31T23:59:59Z</end>
+					<end>2016-02-31T23:59:59Z</end>
 				</TimeSpan>
 
 				<styleUrl>#msn_melonpan</styleUrl>
@@ -3320,7 +3323,7 @@
 				</LookAt>
 				<TimeSpan>
 					<begin>2016-01-01T00:00:00Z</begin>
-					<end>2016-01-31T23:59:59Z</end>
+					<end>2016-02-31T23:59:59Z</end>
 				</TimeSpan>
 
 				<styleUrl>#msn_bread4</styleUrl>
@@ -3412,7 +3415,7 @@
 				</LookAt>
 				<TimeSpan>
 					<begin>2016-01-01T00:00:00Z</begin>
-					<end>2016-01-31T23:59:59Z</end>
+					<end>2016-02-31T23:59:59Z</end>
 				</TimeSpan>
 
 				<styleUrl>#msn_sweet0</styleUrl>
@@ -3596,7 +3599,7 @@
 				</LookAt>
 				<TimeSpan>
 					<begin>2016-01-01T00:00:00Z</begin>
-					<end>2016-01-31T23:59:59Z</end>
+					<end>2016-02-31T23:59:59Z</end>
 				</TimeSpan>
 
 				<styleUrl>#m_ylw-pushpin</styleUrl>
@@ -3619,7 +3622,7 @@
 				</LookAt>
 				<TimeSpan>
 					<begin>2016-01-01T00:00:00Z</begin>
-					<end>2016-01-31T23:59:59Z</end>
+					<end>2016-02-31T23:59:59Z</end>
 				</TimeSpan>
 
 				<styleUrl>#msn_baguette</styleUrl>
@@ -3642,7 +3645,7 @@
 				</LookAt>
 				<TimeSpan>
 					<begin>2016-01-01T00:00:00Z</begin>
-					<end>2016-01-31T23:59:59Z</end>
+					<end>2016-02-31T23:59:59Z</end>
 				</TimeSpan>
 
 				<styleUrl>#msn_souzaipan</styleUrl>
@@ -3665,7 +3668,7 @@
 				</LookAt>
 				<TimeSpan>
 					<begin>2016-01-01T00:00:00Z</begin>
-					<end>2016-01-31T23:59:59Z</end>
+					<end>2016-02-31T23:59:59Z</end>
 				</TimeSpan>
 
 				<styleUrl>#msn_sweet</styleUrl>
